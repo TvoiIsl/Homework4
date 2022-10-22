@@ -68,8 +68,8 @@ public class Main {
         int daysOf250Grams = shedWeight/250;
         int daysOf500Grams = shedWeight/500;
         int onAverageDays = (daysOf250Grams+daysOf500Grams)/2;
-        System.out.println("Потребуется "+daysOf250Grams+" дней если спортсмен будет сбрасывать по 250 грамм");
-        System.out.println("Потребуется "+daysOf500Grams+" дней если спортсмен будет сбрасывать по 500 грамм");
+        System.out.println("Потребуется "+daysOf250Grams+" дней, если спортсмен будет сбрасывать по 250 грамм");
+        System.out.println("Потребуется "+daysOf500Grams+" дней, если спортсмен будет сбрасывать по 500 грамм");
         System.out.println("В среднем для похудения потребуется "+onAverageDays+" день");//Задача 7
 
         int zpMasha = 67760;
